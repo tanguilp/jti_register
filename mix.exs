@@ -4,7 +4,7 @@ defmodule JTIRegister.MixProject do
   def project do
     [
       app: :jti_register,
-      description: "Tesla middlewares for OAuth2 and OpenID Connect client authentication",
+      description: "A JTI token identifier register, to prevent replay attacks",
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
